@@ -279,8 +279,8 @@ export default {
         font-size: 0.8rem;
         color: var(--purple);
         border-radius: 8px;
-        background: url("@/assets/images/arror_down.svg") #000000 no-repeat 94%
-          center / 1rem;
+        // background: url("@/assets/images/arror_down.svg") #000000 no-repeat 94%
+        // center / 1rem;
         -moz-appearance: none; /* Firefox */
         -webkit-appearance: none; /* Safari and Chrome */
         appearance: none;

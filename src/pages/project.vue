@@ -8,7 +8,6 @@
         <img
           v-lazy="{
             src: item.img,
-            loading: loading,
           }"
           :alt="item.title"
         />
@@ -28,7 +27,7 @@
 </template>
 
 <script>
-import loading from "@/assets/images/icegif-1264.gif";
+// import loading from "@/assets/images/icegif-1264.gif";
 import { useI18n } from "@/hooks/use-i18n";
 import { ref } from "vue";
 import { getImageUrl } from "@/tool";
@@ -69,7 +68,6 @@ export default {
     return {
       t,
       list,
-      loading,
     };
   },
 };
