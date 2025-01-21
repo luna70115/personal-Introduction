@@ -1,0 +1,21 @@
+export default {
+  title: "About",
+  "introduce.title": "I am Hui-Hsiang Su,",
+  "introduce.title.2": "a Frontend Developer.",
+  "introduce.caption": `I am a frontend developer passionate about web design and development. I started self-learning in 2023 and successfully transitioned to the frontend development field in October 2024. I have technical skills in HTML, SCSS, Vue (Vue2/Vue3), JavaScript, and Node.js, and I am quick to adapt to new technologies and projects. After joining the workforce, I quickly became familiar with the company's tech stack (such as Vue2/Vue3 and Git Flow) and mastered the development process. As a team player, I excel in communication and collaborate efficiently with senior frontend colleagues and UI/UX designers to ensure the smooth progress of team projects. I always maintain a positive attitude towards work arrangements and am willing to work overtime to ensure the successful completion of projects.`,
+  "introduce.label.birthday": "Birthday:",
+  "introduce.label.age": "Age:",
+  "introduce.label.web": "Github:",
+  "introduce.label.mail": "Email:",
+  "introduce.label.phone": "Phone:",
+  "introduce.label.city": "City:",
+  "introduce.label.city.answer": "Chiayi City, Taiwan",
+  "experience.experience": "Experience",
+  "experience.education": "Education",
+  "experience.experience.title.1": "Sincere Design",
+  "experience.experience.caption.1": `This is my first job as a frontend developer after transitioning careers. To adapt to the company's development environment, I extended my knowledge from the React framework to learning Vue 2/3 and Git Flow. I was fortunate to work with senior frontend developers, allowing me to deeply engage in the research and optimization of project architecture. This experience not only helped me acquire multiple new skills and best practices but also gave me a profound understanding of how teamwork drives project success while continuously improving my own abilities.`,
+
+  "experience.education.title.1": "Tainan University of Technology",
+  "experience.education.title.2": "Min-Hwei College of Health Care Management",
+  "experience.education.title.3": "Beigang Junior High School",
+};

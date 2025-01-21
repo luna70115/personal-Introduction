@@ -1,0 +1,92 @@
+@import "@/assets/scss/mixin.scss";
+.home {
+  @include flex-center-center;
+  color: #fff;
+  min-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
+  display: flex;
+  padding: 1.2rem;
+background-color: black;
+  &-left {
+    padding: 2rem;
+    width: 65%;
+    & > div {
+      margin-top: 1rem;
+    }
+    &-typing {
+      margin-top: 0 !important;
+    }
+    &-title,
+    &-typing {
+      font-size: 2rem;
+    }
+    &-caption {
+      color: var(--caption);
+    }
+    &-btn {
+      position: relative;
+      width: 13rem;
+      cursor: pointer;
+      a {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  &-right {
+    @include flex-center-center;
+    position: relative;
+    padding: 2rem;
+    width: 35%;
+    &-img {
+      img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;        
+        border-radius: 8px;
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: 750px) {
+  .home {
+    flex-direction: column-reverse;
+    min-height: auto;
+    &-left {
+      width: 100%;
+      padding: 0 1.2rem;
+      &-caption {
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 4; // 想顯示的行數
+        -webkit-box-orient: vertical;
+        line-height: 4; //解決firefox不支援-webkit-line-clamp的問題
+        max-height: 4; //解決firefox不支援-webkit-line-clamp的問題
+        line-height: 1.6;
+      }
+      &-btn {
+        position: relative;
+        & > a {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    &-right {
+      padding: 1.2rem;
+      width: 100%;
+      img {
+        height: auto;
+        min-height: 263px;
+        border-radius: 8px;
+        object-fit: cover;
+      }
+    }
+  }
+}
