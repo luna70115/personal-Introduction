@@ -8,7 +8,7 @@ import { resolve } from "path";
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd()); // 取得依照build的環境，取得env資料
   return {
-    base: "./",
+    base: "/personal-Introduction/",
     plugins: [
       vue({
         template: {
@@ -59,7 +59,7 @@ export default defineConfig(({ mode }) => {
     },
     build: {
       minify: "terser",
-      outDir: "docs",
+      outDir: "dist",
       terserOptions: {
         compress: {
           drop_console: true,
